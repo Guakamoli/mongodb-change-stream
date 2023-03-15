@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "start:createInstance": "deno run --node-modules-dir --allow-all example/createInstance.ts",
+    "start:node": "deno run --node-modules-dir --allow-all example/node.ts"
+  },
+  "imports": {
+    "events": "https://deno.land/std@0.177.0/node/events.ts"
+  }
+}
